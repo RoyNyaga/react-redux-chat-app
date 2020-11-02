@@ -1,9 +1,9 @@
 const Layout = (props) => {
   return ( 
     <div>
-      <header>
+      <Header>
         {props.children}
-      </header>
+      </Header>
     </div>
   );
 }
