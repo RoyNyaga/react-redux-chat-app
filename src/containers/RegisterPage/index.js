@@ -1,7 +1,11 @@
+import Layout from "../../components/Layout";
+
 const RegisterPage = () => {
   return (
-    <div>Register Page</div>
-  );
+    <Layout>
+      <div>Register Page</div>
+    </Layout>
+    );
 }
  
 export default RegisterPage 
