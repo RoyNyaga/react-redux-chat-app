@@ -1,9 +1,14 @@
 import Layout from "../../components/Layout";
+import Card from "../../components/UI/Card";
 
 const LoginPage = () => {
   return (
     <Layout>
-      <div>Login page</div>
+      <div>
+        <Card>
+          <form></form>
+        </Card>
+      </div>
     </Layout>
   );
 }
