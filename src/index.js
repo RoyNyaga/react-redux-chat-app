@@ -20,7 +20,7 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig)
 
-console.log(store);
+window.store = store;
 
 ReactDOM.render(
   <Provider store={store}>
